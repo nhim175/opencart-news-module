@@ -17,3 +17,7 @@ OpenCart News Module
 - Install module
 - Add categories and posts
 - Add modules into layouts
+
+##Link to Opencart Extensions
+
+http://www.opencart.com/index.php?route=extension/extension/info&extension_id=14412
