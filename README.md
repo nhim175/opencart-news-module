@@ -18,6 +18,10 @@ OpenCart News Module
 - Add categories and posts
 - Add modules into layouts
 
+##To-do list
+- Make a page to display news in categories
+- Refactor module name
+
 ##Link to Opencart Extensions
 
 http://www.opencart.com/index.php?route=extension/extension/info&extension_id=14412
