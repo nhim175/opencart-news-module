@@ -47,7 +47,7 @@ class ModelModuleMyModule extends Model {
 
 	public function updatePost($data) {
 		$query = $this->db->query("UPDATE " . DB_PREFIX . "e_post SET post_title = '" . $this->db->escape($data['post_title']) . "', post_content = '". $this->db->escape($data['post_content']) . "', post_img = '" . $data['post_img'] . "', status = '" . $data['status'] . "' WHERE post_id = " . $data['post_id']);
-		$query = $this->db->query("UPDATE " . DB_PREFIX . "e_post_category SET category_id = " . $data['category_id']) . " WHERE post_id = " . $data['post_id'];
+		$query = $this->db->query("UPDATE " . DB_PREFIX . "e_post_category SET category_id = " . $data['category_id'] . " WHERE post_id = " . $data['post_id']);
 
 	}
 
